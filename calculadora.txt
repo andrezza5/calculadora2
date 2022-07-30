@@ -1,0 +1,26 @@
+Executado em Python
+
+print("calculadora")
+operacao = input / "digite a operacao (somar, subtrair, multipliar, dividir))."
+numero1 = input("Digite o primeiro numero")
+numero2 = input("Digite o segundo numero")
+if operacao == "somar":
+    resultado = int(numero1) + int(numero2)
+elif operacao == "subtrair":
+    resultado = int (num1) - int (num2)
+elif operacao == "multiplicar":
+    resultado = int (num1) * int (num2)
+elif operacao == "dividir":
+    resultado = int (num1) / int (num2)
+else :
+    resultado = "essa operacao nao existe, digite num1 e num2"
+print ("o resultado da operacao e :"+str (resultado))
+while (controle != 's') :
+    print('s. Sair')
+    controle = input('Digite a opcao desejada: ')
+    print('Loop encerrado')
+
+                            
+                        
+                        
+                        
